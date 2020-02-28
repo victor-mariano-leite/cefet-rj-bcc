@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B8A80146218799910035447A /* teste_ponteiros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = teste_ponteiros.h; path = ../../teste_ponteiros.h; sourceTree = "<group>"; };
+		B8A80147218799910035447A /* teste_ponteiros.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = teste_ponteiros.c; path = ../../teste_ponteiros.c; sourceTree = "<group>"; };
+		B8DF60D921B097E600F4F0EE /* exerciciosListaSEnc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = exerciciosListaSEnc.cpp; path = exerc/exerciciosListaSEnc.cpp; sourceTree = SOURCE_ROOT; };
+		B8DF60DA21B097E600F4F0EE /* exerciciosListaSEnc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = exerciciosListaSEnc.hpp; path = exerc/exerciciosListaSEnc.hpp; sourceTree = SOURCE_ROOT; };
+		B8E8D51C2175F10700814773 /* bubble-selection-sorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bubble-selection-sorting.h"; sourceTree = "<group>"; };
+		B8E8D51D2175F10700814773 /* bubble-selection-sorting.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bubble-selection-sorting.c"; sourceTree = "<group>"; };
+		B8EC9E652176AC0400ED9EEE /* insertion-sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "insertion-sort.h"; sourceTree = "<group>"; };
+		B8EC9E662176AC0400ED9EEE /* insertion-sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "insertion-sort.c"; sourceTree = "<group>"; };
+		B8EC9E672176AC5200ED9EEE /* recursion-sorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "recursion-sorting.h"; sourceTree = "<group>"; };
+		B8EC9E682176AC5200ED9EEE /* recursion-sorting.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "recursion-sorting.c"; sourceTree = "<group>"; };
+		B8EC9E692176AC7900ED9EEE /* lista-estatica.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lista-estatica.h"; sourceTree = "<group>"; };
+		B8EC9E6A2176AC7900ED9EEE /* lista-estatica.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "lista-estatica.c"; sourceTree = "<group>"; };
+		B8EC9E702176AD4C00ED9EEE /* buscas-seq-binaria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "buscas-seq-binaria.h"; sourceTree = "<group>"; };
+		B8EC9E712176AD4C00ED9EEE /* buscas-seq-binaria.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "buscas-seq-binaria.c"; sourceTree = "<group>"; };
+		B8EC9E752176ADAE00ED9EEE /* struct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = struct.h; sourceTree = "<group>"; };
+		B8EC9E762176ADAE00ED9EEE /* struct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = struct.c; sourceTree = "<group>"; };
+		B8EC9E772176ADB800ED9EEE /* ponteiros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ponteiros.h; sourceTree = "<group>"; };
+		B8EC9E782176ADB800ED9EEE /* ponteiros.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ponteiros.c; sourceTree = "<group>"; };
+		B8EC9E792176ADD600ED9EEE /* lista-linear-encadeada.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lista-linear-encadeada.h"; sourceTree = "<group>"; };
+		B8EC9E7A2176ADD600ED9EEE /* lista-linear-encadeada.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "lista-linear-encadeada.c"; sourceTree = "<group>"; };
+		B8EC9E7B2176ADEE00ED9EEE /* lista-simplesmente-encadeada.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lista-simplesmente-encadeada.h"; sourceTree = "<group>"; };
+		B8EC9E7C2176ADEE00ED9EEE /* lista-simplesmente-encadeada.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "lista-simplesmente-encadeada.c"; sourceTree = "<group>"; };
+		B8EC9E7D2176AE1300ED9EEE /* lista-duplamente-encadeada.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lista-duplamente-encadeada.h"; sourceTree = "<group>"; };
+		B8EC9E7E2176AE1300ED9EEE /* lista-duplamente-encadeada.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "lista-duplamente-encadeada.c"; sourceTree = "<group>"; };
+		B8EC9E7F2176AE2900ED9EEE /* lista-circular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lista-circular.h"; sourceTree = "<group>"; };
+		B8EC9E802176AE2900ED9EEE /* lista-circular.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "lista-circular.c"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B8DF60D821B097AA00F4F0EE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				B8DF60D921B097E600F4F0EE /* exerciciosListaSEnc.cpp */,
+				B8DF60DA21B097E600F4F0EE /* exerciciosListaSEnc.hpp */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B8E8D5152175F0CF00814773 = {
+			isa = PBXGroup;
+			children = (
+				B8DF60D821B097AA00F4F0EE /* New Group */,
+				B8EC9E742176AD9300ED9EEE /* arvores */,
+				B8EC9E732176AD7600ED9EEE /* listas-encadeadas */,
+				B8EC9E722176AD5900ED9EEE /* struct-ponteiros */,
+				B8EC9E6E2176ACEB00ED9EEE /* buscas */,
+				B8EC9E6D2176ACC400ED9EEE /* listas-estaticas */,
+				B8EC9E6B2176AC8200ED9EEE /* ordenacao */,
+			);
+			sourceTree = "<group>";
+		};
+		B8EC9E6B2176AC8200ED9EEE /* ordenacao */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC9E672176AC5200ED9EEE /* recursion-sorting.h */,
+				B8EC9E682176AC5200ED9EEE /* recursion-sorting.c */,
+				B8EC9E652176AC0400ED9EEE /* insertion-sort.h */,
+				B8A80146218799910035447A /* teste_ponteiros.h */,
+				B8A80147218799910035447A /* teste_ponteiros.c */,
+				B8EC9E662176AC0400ED9EEE /* insertion-sort.c */,
+				B8E8D51C2175F10700814773 /* bubble-selection-sorting.h */,
+				B8E8D51D2175F10700814773 /* bubble-selection-sorting.c */,
+			);
+			path = ordenacao;
+			sourceTree = "<group>";
+		};
+		B8EC9E6D2176ACC400ED9EEE /* listas-estaticas */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC9E692176AC7900ED9EEE /* lista-estatica.h */,
+				B8EC9E6A2176AC7900ED9EEE /* lista-estatica.c */,
+			);
+			path = "listas-estaticas";
+			sourceTree = "<group>";
+		};
+		B8EC9E6E2176ACEB00ED9EEE /* buscas */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC9E702176AD4C00ED9EEE /* buscas-seq-binaria.h */,
+				B8EC9E712176AD4C00ED9EEE /* buscas-seq-binaria.c */,
+			);
+			path = buscas;
+			sourceTree = "<group>";
+		};
+		B8EC9E722176AD5900ED9EEE /* struct-ponteiros */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC9E752176ADAE00ED9EEE /* struct.h */,
+				B8EC9E762176ADAE00ED9EEE /* struct.c */,
+				B8EC9E772176ADB800ED9EEE /* ponteiros.h */,
+				B8EC9E782176ADB800ED9EEE /* ponteiros.c */,
+			);
+			path = "struct-ponteiros";
+			sourceTree = "<group>";
+		};
+		B8EC9E732176AD7600ED9EEE /* listas-encadeadas */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC9E792176ADD600ED9EEE /* lista-linear-encadeada.h */,
+				B8EC9E7A2176ADD600ED9EEE /* lista-linear-encadeada.c */,
+				B8EC9E7B2176ADEE00ED9EEE /* lista-simplesmente-encadeada.h */,
+				B8EC9E7C2176ADEE00ED9EEE /* lista-simplesmente-encadeada.c */,
+				B8EC9E7D2176AE1300ED9EEE /* lista-duplamente-encadeada.h */,
+				B8EC9E7E2176AE1300ED9EEE /* lista-duplamente-encadeada.c */,
+				B8EC9E7F2176AE2900ED9EEE /* lista-circular.h */,
+				B8EC9E802176AE2900ED9EEE /* lista-circular.c */,
+			);
+			path = "listas-encadeadas";
+			sourceTree = "<group>";
+		};
+		B8EC9E742176AD9300ED9EEE /* arvores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = arvores;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		B8E8D5162175F0CF00814773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = B8E8D5192175F0CF00814773 /* Build configuration list for PBXProject "eda-cefetrj" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8E8D5152175F0CF00814773;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B8E8D51A2175F0CF00814773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		B8E8D51B2175F0CF00814773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8E8D5192175F0CF00814773 /* Build configuration list for PBXProject "eda-cefetrj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E8D51A2175F0CF00814773 /* Debug */,
+				B8E8D51B2175F0CF00814773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8E8D5162175F0CF00814773 /* Project object */;
+}
