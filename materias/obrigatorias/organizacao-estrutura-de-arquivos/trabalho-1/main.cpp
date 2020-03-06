@@ -1,5 +1,9 @@
 #include "FileSearch.hpp"
 
+// vai carregar arquivo do S3
+// https://organizacao-estrutura-de-arquivos-cefet-rj.s3-sa-east-1.amazonaws.com/cep.dat
+// tem que carregar do dockerfile 
+
 int main(int argc, char**argv){
     FileSearch f;
     // 
