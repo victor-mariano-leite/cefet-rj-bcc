@@ -1,0 +1,24 @@
+abre arquivo
+
+inicio = 0
+fim = calcula o numero do ultimo registro (tamarq/tamreg)-1
+i = 0
+while(inicio <= fim)
+{
+	i++
+	meio = (inicio+fim)/2
+	le
+	compara com o cep pesquisado
+
+	caso 1: achou
+
+	caso 2:
+		inicio = meio + 1
+
+	caso 3
+	    fim = meio - 1
+
+}
+
+
+print i
