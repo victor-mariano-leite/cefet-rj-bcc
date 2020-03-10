@@ -22,7 +22,8 @@ int main(int argc, char**argv){
     //
     // position = f.search(argv, "cpf"); procura o cpf de valor argv, retorna indice
     //
-    // descricao = f.get_value(position) retorna uma string com a descriçao do lugar
+    // descricao = f.get_value(position) retorna uma string com a descriçao do lugar;
+    //                                   deveria seruma nova classe File, que herda de FILE
     // 
     // printf(descricao)
     // 
