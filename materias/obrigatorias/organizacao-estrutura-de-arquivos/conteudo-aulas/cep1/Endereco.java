@@ -66,7 +66,7 @@ public class Endereco {
 	public String getBairro() {
 		return bairro;
 	}
-			
+	
 	public void setBairro(String bairro) {
 		this.bairro = bairro;
 	}
